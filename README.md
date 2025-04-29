@@ -10,7 +10,16 @@ This Python script converts an audio file (e.g., MP3, WAV) into text using [Open
 
 ## How to use
 
+For files local files.
+
 ```bash
 pip install -r requirements.txt
 python3 audioToText.py "file.mp3" "transcription.txt"
+```
+
+For URLs.
+
+```bash
+pip install -r requirements.txt
+python3 audioToTextURL.py "url..." "transcription.txt"
 ```
